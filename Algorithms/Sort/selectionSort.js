@@ -5,6 +5,8 @@
  * (n^2 + n) / 2
  * n^2 / 2 + n / 2
  * O(n^2)
+ *
+ * Best case: Ω(n^2)
  */
 
 function selectionSort(arr) {

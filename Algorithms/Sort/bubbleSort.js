@@ -4,6 +4,8 @@
  * n^2 - 1n - 1n + 1
  * n^2 - 2n + 1
  * O(n^2)
+ *
+ * Best case: Ω(n)
  */
 
 function bubbleSort(arr) {
