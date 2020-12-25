@@ -20,7 +20,7 @@ function merge(arr1, arr2) {
                 arr.push(arr1[0]);
                 arr1.shift();
             }
-        } else if (arr1[0] < arr2[0]) {
+        } else if (arr1[0] <= arr2[0]) {
             arr.push(arr1[0]);
             arr1.shift();
         } else {
